@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфоліо</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header class="page-header">
+      <div class="container main-nav">
+        <!-- Навігація -->
+        <nav class="main-nav">
+          <a lang="en" href="./index.html" class="logo link-hidden"
+            >Web<span class="logo-header">Studio</span></a
+          >
+          <ul class="site-nav list-hidden">
+            <li class="item">
+              <a href="./index.html" class="link link-hidden">Студія</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link link-hidden current"
+                >Портфоліо
+                <div class="underline-decor"></div
+              ></a>
+            </li>
+            <li class="item"><a href="#" class="link link-hidden">Контакти</a></li>
+          </ul>
+        </nav>
+        <!-- Лінки контактів -->
+        <ul class="links-contact list-hidden">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="contact link-hidden">
+              <svg class="contact-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="contact link-hidden">
+              <svg class="contact-icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container">
+          <!-- Скрити заголовок -->
+          <h1 class="section-title visually-hidden">Сторінка портфоліо</h1>
+          <!-- Кнопки-фільтри -->
+          <ul class="list-hidden small-margin">
+            <li class="button-item">
+              <button type="button" class="button cursor btn-main">Усі</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="button cursor">Веб-сайти</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="button cursor">Додатки</button>
+            </li>
+            <li class="button-item"><button type="button" class="button cursor">Дизайн</button></li>
+            <li class="button-item">
+              <button type="button" class="button cursor">Маркетинг</button>
+            </li>
+          </ul>
+          <!-- Ассортимент з фильтрів -->
+          <ul class="list-hidden filter list-benefits">
+            <li class="benefits-item">
+              <a href="" class="link-hidden">
+                <div class="thumb">
+                  <img
+                    class="image-fix"
+                    src="./images/techkryak.jpg"
+                    alt="картинка з макетом вебсайту"
+                    width="370"
+                  />
+                  <div class="thumb-overlay">
+                    <p class="thumb-description">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="benefits-link">
+                  <h2 class="caption secondary-caption">Технокряк</h2>
+                  <p class="list-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="benefits-item">
+              <a href="" class="link-hidden">
+                <div class="thumb">
+                  <img
+                    class="image-fix"
+                    src="./images/poster.jpg"
+                    alt="постер з баскетболістами"
+                    width="370"
+                  />
+                  <div class="thumb-overlay">
+                    <p class="thumb-description">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="benefits-link">
+                  <h2 class="caption secondary-caption">Постер New Orlean vs Golden Star</h2>
+                  <p class="list-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="benefits-item">
+              <a href="" class="link-hidden">
+                <div class="thumb">
+                  <img
+                    class="image-fix"
+                    src="./images/logo-of-restoran.jpg"
+                    alt="постер з баскетболістами"
+                    width="370"
+                  />
+                  <div class="thumb-overlay">
+                    <p class="thumb-description">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="benefits-link">
+                  <h2 class="caption secondary-caption">Ресторан Seafood</h2>
+                  <p class="list-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="benefits-item">
+              <a href="" class="link-hidden">
+                <div class="thumb">
+                  <img
+                    class="image-fix"
+                    src="./images/headphones.jpg"
+                    alt="постер з баскетболістами"
+                    width="370"
+                  />
+                  <div class="thumb-overlay">
+                    <p class="thumb-description">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="benefits-link">
+                  <h2 class="caption secondary-caption">Проєкт Prime</h2>
+                  <p class="list-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="benefits-item">
+              <a href="" class="link-hidden">
+                <div class="thumb">
+                  <img
+                    class="image-fix"
+                    src="./images/boxes.jpg"
+                    alt="постер з баскетболістами"
+                    width="370"
+                  />
+                  <div class="thumb-overlay">
+                    <p class="thumb-description">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="benefits-link">
+                  <h2 class="caption secondary-caption">Проєкт Boxes</h2>
+                  <p class="list-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="benefits-item">
+              <a href="" class="link-hidden">
+                <div class="thumb">
+                  <img
+                    class="image-fix"
+                    src="./images/pc-maket.jpg"
+                    alt="постер з баскетболістами"
+                    width="370"
+                  />
+                  <div class="thumb-overlay">
+                    <p class="thumb-description">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="benefits-link">
+                  <h2 class="caption secondary-caption">Inspiration has no Borders</h2>
+                  <p class="list-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="benefits-item">
+              <a href="" class="link-hidden">
+                <div class="thumb">
+                  <img
+                    class="image-fix"
+                    src="./images/limited-edition.jpg"
+                    alt="постер з баскетболістами"
+                    width="370"
+                  />
+                  <div class="thumb-overlay">
+                    <p class="thumb-description">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="benefits-link">
+                  <h2 class="caption secondary-caption">Видання Limited Edition</h2>
+                  <p class="list-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="benefits-item">
+              <a href="" class="link-hidden">
+                <div class="thumb">
+                  <img
+                    class="image-fix"
+                    src="./images/label.jpg"
+                    alt="постер з баскетболістами"
+                    width="370"
+                  />
+                  <div class="thumb-overlay">
+                    <p class="thumb-description">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="benefits-link">
+                  <h2 class="caption secondary-caption">Проєкт LAB</h2>
+                  <p class="list-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="benefits-item">
+              <a href="" class="link-hidden">
+                <div class="thumb">
+                  <img
+                    class="image-fix"
+                    src="./images/web-maket-on-the-laptop.jpg"
+                    alt="постер з баскетболістами"
+                    width="370"
+                  />
+                  <div class="thumb-overlay">
+                    <p class="thumb-description">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="benefits-link">
+                  <h2 class="caption secondary-caption">Growing Business</h2>
+                  <p class="list-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-section">
+      <div class="container">
+        <div class="foot-box">
+          <!-- Подвал, лого -->
+          <a lang="en" href="./index.html" class="logo"
+            >Web<span class="logo-footer">Studio</span></a
+          >
+          <!-- Адреса -->
+          <address class="address">
+            <ul class="address-links list-hidden">
+              <li class="address-items">
+                <a
+                  class="link-hidden address-place"
+                  href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="address-items">
+                <a
+                  class="contact link-hidden"
+                  href="mailto:info@devstudio.com"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-items">
+                <a
+                  class="contact link-hidden"
+                  href="tel:+380961111111"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="box-socials">
+          <p class="subtitle-footer">Приєднуйтесь</p>
+          <ul class="list-hidden socials">
+            <li class="link-socials">
+              <a href="" class="socials-attention footer-attention">
+                <svg class="features-picture" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="link-socials">
+              <a href="" class="socials-attention footer-attention">
+                <svg class="features-picture" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="link-socials">
+              <a href="" class="socials-attention footer-attention">
+                <svg class="features-picture" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="link-socials">
+              <a href="" class="socials-attention footer-attention">
+                <svg class="features-picture" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscribe">
+          <p class="subtitle-footer">підпишіться на розсилку</p>
+          <form class="form-footer">
+            <label>
+              <input class="footer-email cursor" type="email" name="mail" placeholder="E-mail" />
+            </label>
+
+            <button class="subscribe-button cursor" type="submit">
+              Підписатися
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
