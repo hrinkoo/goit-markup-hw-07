@@ -1,12 +1,12 @@
-@mixin flexed ($gap, $jc:center, $ai:center, $direction:row, $wrapper:wrap) {
+@mixin flexed ($gap, $jc:center, $ai:center, $fd:column) {
     display: flex;
     gap: $gap;
     justify-content: $jc;
     align-items: $ai;
-    flex-flow: $direction $wrapper;
+    flex-direction: $fd;
 }
 
-@mixin font ($fw: , $fs: , $lh: , $ta: ){
+@mixin font ($fw:700, $fs:14px, $lh, $ta:center){
     font-weight: $fw;
     font-size: $fs;
     line-height: calc($lh/$fs);
