@@ -16,47 +16,40 @@
   <body>
     <!-- Шапка сайта -->
     <header class="page-header" class="page-header">
-      <div class="container" class="container main-nav">
+      <div class="container nav">
         <!-- Навігація -->
-        <nav class="nav" class="main-nav">
-          <a class="logo" lang="en" href="./index.html" class="logo link-hidden"
-            >Web<span class="logo__header" class="logo-header">Studio</span></a
+        <nav class="nav">
+          <a class="logo" lang="en" href="./index.html"
+            >Web<span class="logo__header">Studio</span></a
           >
-          <ul class="nav__list" class="site-nav list-hidden">
-            <li class="nav__item" class="item">
-              <a
-                class="nav__link nav__link--current"
-                href="./index.html"
-                class="link link-hidden current"
+          <ul class="nav-list nav-list--append">
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="./index.html"
                 >Студія
-                <div class="nav__active" class="underline-decor"></div>
+                <div class="nav-list__box"></div>
               </a>
             </li>
-            <li class="nav__item" class="item">
-              <a class="nav__link" href="./portfolio.html" class="link link-hidden">Портфоліо</a>
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="nav__link" class="item">
-              <a href="#" class="link link-hidden">Контакти</a>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Контакти</a>
             </li>
           </ul>
         </nav>
         <!-- Лінки контактів -->
-        <ul class="link-contact" class="links-contact list-hidden">
-          <li class="link-contact__item" class="item">
-            <a
-              class="link-contact__link"
-              href="mailto:info@devstudio.com"
-              class="contact link-hidden"
-            >
-              <svg class="link-contact__icon" class="contact-icon" width="16" height="12">
+        <ul class="link-contact link-contact--append">
+          <li class="link-contact__item">
+            <a class="link-contact__link" href="mailto:info@devstudio.com">
+              <svg class="link-contact__icon link-contact__icon--preppend" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               <span class="link-contact__text">info@devstudio.com</span></a
             >
           </li>
-          <li class="link-contact__item" class="item">
-            <a class="link-contact__link" href="tel:+380961111111" class="contact link-hidden">
-              <svg class="link-contact__icon" class="contact-icon" width="10" height="16">
+          <li class="link-contact__item">
+            <a class="link-contact__link" href="tel:+380961111111">
+              <svg class="link-contact__icon link-contact__icon--preppend" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               <span class="link-contact__text">+38 096 111 11 11</span></a

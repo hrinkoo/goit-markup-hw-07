@@ -1,9 +1,7 @@
-@mixin flexed ($gap, $jc:center, $ai:center, $fd:column) {
+@mixin flexed ($jc:center, $ai:center) {
     display: flex;
-    gap: $gap;
     justify-content: $jc;
     align-items: $ai;
-    flex-direction: $fd;
 }
 
 @mixin font ($fw:700, $fs:14px, $lh, $ta:center){
