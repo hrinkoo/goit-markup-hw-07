@@ -3,10 +3,3 @@
     justify-content: $jc;
     align-items: $ai;
 }
-
-@mixin font ($fw:700, $fs:14px, $lh, $ta:center){
-    font-weight: $fw;
-    font-size: $fs;
-    line-height: calc($lh/$fs);
-    text-align: $ta;
-}
