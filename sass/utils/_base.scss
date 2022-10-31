@@ -72,6 +72,6 @@ svg, img {
     pointer-events: none;
 }
 
-.form__input, .form__comment:focus-visible {
+.form__input, .form__comment, .form-footer__email:focus-visible {
     outline: 0;
 }
