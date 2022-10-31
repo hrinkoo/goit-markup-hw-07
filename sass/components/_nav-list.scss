@@ -34,6 +34,10 @@
     }
 }
 
+.current {
+    color: $accent-color;
+}
+
 .nav-list__box::after {
     position: absolute;
     content: '';
