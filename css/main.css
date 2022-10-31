@@ -259,8 +259,8 @@ summary {
 }
 
 body {
-  color: var(--primary-text-color);
-  background-color: var(--primary-bgr-color);
+  color: #757575;
+  background-color: #ffffff;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -694,4 +694,65 @@ svg, img {
 }
 .form__button:hover {
   background-color: #188ce8;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section__title {
+  color: #212121;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.section__title--indent {
+  margin-bottom: 50px;
+}
+
+.features-list {
+  display: flex;
+}
+
+.features-list__item {
+  width: calc((100% - 90px) / 4);
+}
+.features-list__item__append {
+  margin-right: 30px;
+}
+.features-list__item__append:nth-child(4n) {
+  margin-right: 0;
+}
+
+.features-list__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.features-list__box--indent {
+  margin-bottom: 30px;
+}
+
+.features-list__box-icon {
+  fill: currentColor;
+}
+
+.features-list__subtitle {
+  color: #212121;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.features-list__subtitle--indent {
+  margin-bottom: 10px;
+}
+
+.features-list__desc {
+  font-size: 14px;
+  line-height: 1.71;
 }/*# sourceMappingURL=main.css.map */
