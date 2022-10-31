@@ -4,11 +4,15 @@
 @import './utils/mixins';
 @import './utils/placeholder';
 
+// Хедер
+
 @import './components/container';
 @import './components/logo';
 @import './components/nav';
 @import './components/nav-list';
 @import './components/link-contact';
+
+// Студія
 
 @import './components/main-screen';
 @import './components/main-button';
@@ -29,6 +33,8 @@
 
 @import './components/our-clients';
 
+// Футер
+
 @import './components/page-footer';
 @import './components/footer-container';
 @import './components/footer-logo';
@@ -36,3 +42,9 @@
 @import './components/footer-social';
 @import './components/footer-subscribe';
 @import './components/form-footer';
+
+// Портфоліо
+
+@import './components/filter';
+@import './components/product';
+@import './components/portfolio-product';
